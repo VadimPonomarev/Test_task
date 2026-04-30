@@ -22,30 +22,6 @@
 - Удаление пользователя с подтверждением
 - Уведомления о результатах операций (toast)
 
-## Архитектура проекта
-
-src/
-├── components/
-│ ├── ui/
-│ │ └── toaster.tsx
-│ ├── ConfirmDialog.tsx
-│ ├── SimpleUserDetailsDialog.tsx
-│ ├── UserForm.tsx
-│ └── UsersTable.tsx
-├── hooks/
-│ └── hooks.ts
-├── pages/
-│ ├── Dashboard.tsx
-│ └── Login.tsx
-├── services/
-│ └── api.ts
-├── store/
-│ └── store.ts
-├── types/
-│ └── user.ts
-├── App.tsx
-└── main.tsx
-
 ## API интеграция
 
 | Эндпоинт          | Метод  | Описание                        |
